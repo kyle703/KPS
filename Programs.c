@@ -1,7 +1,8 @@
 #include "Programs.h"
+#include "ClassicAlgos.h"
 
 static Program ProgramTable[NUM_PROGRAMS] = {
-    {"Collatz Conjecture", "collatz", "Classic Algorithms",
+    {"Collatz Conjecture", "collatz", "Classic Algorithms", collatz,
         "Collatz Conjecture - Start with a number n > 1. Find the number of steps it takes to reach one using the following process: If n is even, divide it by 2. If n is odd, multiply it by 3 and add 1."}
 };
 
@@ -33,3 +34,12 @@ bool find(char* name) {
     printf("%s\n", NO_FOUND_PROGRAM_ERROR_MESSAGE);
     return false;
 }  
+
+void run(char* name) {
+	 for(int i = 0; i < NUM_PROGRAMS; i++) {
+        if (strcmp(name, ProgramTable[i].name) == 0 || strcmp(name, ProgramTable[i].nickName) == 0) {
+			ProgramTable[i].func_ptr();
+		}
+	}
+}
+			

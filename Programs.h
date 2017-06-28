@@ -13,6 +13,7 @@ struct _Program{
     char* name;
     char* nickName;
     char* cat;
+    void (*func_ptr)(void);
     char* description;
 }; typedef struct _Program Program;
 
@@ -22,6 +23,8 @@ void print_names();
 void info(char* name);
 
 bool find(char* name);
+
+void run(char* name);
 
 
 
