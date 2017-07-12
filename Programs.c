@@ -2,8 +2,10 @@
 #include "ClassicAlgos.h"
 
 static Program ProgramTable[NUM_PROGRAMS] = {
-    {"Collatz Conjecture", "collatz", "Classic Algorithms", collatz,
-        "Collatz Conjecture - Start with a number n > 1. Find the number of steps it takes to reach one using the following process: If n is even, divide it by 2. If n is odd, multiply it by 3 and add 1."}
+    {"Collatz 12342134 Conjecture", "collatz", "Classic Algorithms", collatz,
+        "Collatz Conjecture - Start with a number n > 1. Find the number of steps it takes to reach one using the following process: If n is even, divide it by 2. If n is odd, multiply it by 3 and add 1."},
+	{"Sieve of Eratosthenes", "sieve", "Classic Algorithms", sieve_of_eratosthenes,
+		"The sieve of Eratosthenes is one of the most efficient ways to find all of the smaller primes (below 10 million or so)."}
 };
 
 

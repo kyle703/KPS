@@ -2,8 +2,8 @@
 #define PROGRAMS_H
 #endif
 
-#define NUM_PROGRAMS 1
-#define NO_FOUND_PROGRAM_ERROR_MESSAGE "No programs with this name were found. Please try again"
+#define NUM_PROGRAMS 2
+#define NO_FOUND_PROGRAM_ERROR_MESSAGE "No programs with this name were found."
 
 #include <stdio.h>
 #include <stdbool.h>

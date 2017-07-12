@@ -35,9 +35,9 @@ int main() {
         } else if ( find(arg) ) {
             printf("Type exit to return to program selection\n");
             run(arg);
-            printf("Exiting %s...\n", arg);
+            printf("Exiting %s program...\n", arg);
         } else {
-            printf("invalid input. please try again\n");
+            printf("Invalid input. Please try again\n");
         }
     }
 }
