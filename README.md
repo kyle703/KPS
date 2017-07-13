@@ -7,9 +7,8 @@ The list of problems can be found [here](https://github.com/karan/Projects)
 
 ### How To Run:
 1. clone
-2. build
-3. ???
-4. ./driver
+2. build w/ gcc
+3. ./driver
 
 ### Current Commands: 
 - list-- lists all possible programs available to run
@@ -19,6 +18,12 @@ The list of problems can be found [here](https://github.com/karan/Projects)
 
 ### //TODO
 - makefile
-- make Sieve prettier and use bit arrays
+- make Sieve prettier and use bit arrays to use less memory
 - view projects by cateogry
-- obviously some solutions
+- obviously some more solutions. I was thinking Numbers next
+
+## Solutions
+List of all current solutions sorted by category
+### Classic Algorithms
+- Collatz Conjecture (6/28/17)
+- Sieve of Eratosthenes (7/12/17)
